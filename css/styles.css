@@ -15,6 +15,24 @@ body {
   color: var(--main-text-color);
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+.container{
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline:2px solid red;
+
+}
+ul{
+  margin: 0;
+  padding-left: 0;
+}
+
 .item {
   list-style: none;
 }
@@ -28,8 +46,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
+  
 }
- 
+
+.logo-header{
+   padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.menu{
+  display: flex;
+}
 .address{
   font-style: normal;
 }
@@ -44,6 +72,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-decoration: none;
+  display: inline-block;
+  
 }
 
 .nav:hover,
@@ -56,10 +86,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  display: inline-block;
 }
 
-.hero-section {
+.hero-section  {
   background-color: var(--hero-background-color);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .visually-hidden {
@@ -78,10 +112,13 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
+  max-width: 494px;
   color: var(--light-color);
   line-height: 1.07;
-  text-align: center;
+
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  outline: 2px solid white;
 }
 
 .hero-button {
@@ -93,7 +130,11 @@ body {
   color: var(--light-color);
   background-color: var(--accent-color);
   border: none;
+  border-radius: 4px;
   cursor: pointer;
+  padding: 16px 32px;
+
+  
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -111,20 +152,44 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
 
 .description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+ 
 }
+
 
 .section-team {
   background-color: var(--section-color);
+  
 }
+
+.section-content{
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
 
 .cards {
   background-color: var(--light-color);
+
+}
+
+/* .portfolio-btns{
+  display: flex;
+} */
+
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  outline: 3px solid green;
+
 }
 
 .section-subtitle {
@@ -132,16 +197,28 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+ 
 }
+
+
+img{
+  display: block;
+
+}
+
 
 .footer-section {
   background-color: var(--hero-background-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-quote {
   color: var(--footer-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .footer-accent-logo {
@@ -160,6 +237,11 @@ body {
   background-color: var(--section-color);
   border: none;
   cursor: pointer;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  
+
+  padding: 12px 24px;
 }
 
 .btn:hover {
