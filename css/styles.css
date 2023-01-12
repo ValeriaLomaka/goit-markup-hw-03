@@ -59,8 +59,12 @@ img{
   display: flex;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid #E7E9FC;
+ 
   
+}
+
+header{
+   border-bottom: 1px solid #E7E9FC;
 }
 
 nav{
@@ -325,8 +329,12 @@ nav{
   display: flex;
   justify-content: center;
   gap: var(--card-set-gap);
+  margin-bottom: 72px;
+}
+
+.portfolio-section{
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .section-cards{
@@ -345,10 +353,5 @@ margin-left: var(--card-set-gap);
 margin-top: var(--card-set-gap);
 margin-bottom: 24px;
 
-}
-
-
-.elements{
-  padding-bottom: 120px;
 }
 
