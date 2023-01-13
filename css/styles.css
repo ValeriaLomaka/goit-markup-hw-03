@@ -58,12 +58,9 @@ img{
 .main-container{
   display: flex;
   align-items: center;
-  text-align: center;
- 
-  
 }
 
-header{
+.header{
    border-bottom: 1px solid #E7E9FC;
 }
 
@@ -219,12 +216,13 @@ nav{
 }
 
 .section-content{
+ padding-left: 16px;
  padding-top: 32px;
  padding-bottom: 32px;
  border-bottom: 1px solid #E7E9FC;
  border-left: 1px solid #E7E9FC;
  border-right: 1px solid #E7E9FC;
- text-align: center;
+
 }
 
 
@@ -332,10 +330,6 @@ nav{
   margin-bottom: 72px;
 }
 
-.portfolio-section{
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
 
 .section-cards{
   display: flex;
